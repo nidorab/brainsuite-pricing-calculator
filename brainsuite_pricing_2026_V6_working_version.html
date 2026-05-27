@@ -43,7 +43,7 @@ body {
 .topbar {
   background: var(--dusky-blue);
   height: 62px;
-  display: flex; align-items: center; justify-content: space-between;
+  display: flex; align-items: center; justify-content: center;
   padding: 0 48px;
   position: sticky; top: 0; z-index: 300;
   border-bottom: 3px solid var(--orange);
@@ -635,19 +635,10 @@ footer strong { color: rgba(255,255,255,.65); }
 
 <!-- ═══ TOPBAR ═══════════════════════════════════════════════════ -->
 <div class="topbar">
-  <div class="logo">
-    <div class="logo-mark">
-      <img src="Images/brainsuite_mark.webp" alt="Brainsuite logo" />
-    </div>
-    <div class="logo-name">Brainsuite</div>
-  </div>
-
   <div class="page-tabs">
     <button class="page-tab active" onclick="showPage('overview',this)">Overview</button>
     <button class="page-tab" onclick="showPage('calculator',this)">Calculator</button>
   </div>
-
-  <div class="topbar-right"></div>
 </div>
 
 <!-- ═══════════════════════════════════════════════════════════════
@@ -656,7 +647,7 @@ footer strong { color: rgba(255,255,255,.65); }
 <div id="page-overview" class="page active">
 
   <div class="hero">
-    <div class="hero-eyebrow">Pricing Overview · v5</div>
+    <div class="hero-eyebrow">Pricing Overview</div>
     <h1>Invest in <em>Creative<br>Effectiveness</em></h1>
     <p class="hero-sub">DIY platform plans built for every team size — from first tests to global-scale implementation.</p>
     <div class="hero-meta">
@@ -967,7 +958,7 @@ footer strong { color: rgba(255,255,255,.65); }
 <div id="page-calculator" class="page">
 
   <div class="calc-hero">
-    <div class="hero-eyebrow">Smart Pricing Tool · v5</div>
+    <div class="hero-eyebrow">Smart Pricing Tool</div>
     <h1>Find the <em>Right Plan</em><br>for you</h1>
     <p class="hero-sub">Bracketed volume pricing · no cliffs · explicit binding constraints · upgrade suggestions when value-dense.</p>
   </div>
